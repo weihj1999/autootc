@@ -8,6 +8,7 @@ You may get more information about Open Telekom Cloud from offical website. http
 And you are also welcome to share your practice, so we can help more and more.
 
 Structure
+
 beginner - examples for the beginer to understand terrafrom, and operation OTC with terraform.
 
 
