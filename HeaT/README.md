@@ -4,6 +4,7 @@
 Resource Template Service (RTS) makes it easier for you to simplify your cloud computing resource management and automatic O&M. Based on the template specifications defined in the RTS service, you can compile a template file and define a collection of cloud computing resources, dependencies between resources, and resource configurations. Then you can automatically create and configure all resources in the template by using the orchestration engine so as to implement automatic deployment and simplify O&M. The RTS service supports most native OpenStack Heat APIs and templates in the Heat Orchestration Template (HOT) format.
 <br/>
 **NOTE**
+<br/>
 The environment variables in the following commands are for reference only. You need to import the environment variables based on your system settings.
 <br/>
 ```
@@ -26,7 +27,8 @@ export OS_IDENTITY_API_VERSION=3
 export OS_IMAGE_API_VERSION=2
 ```
 <br/>
-**Structure**<br/>
+**Structure**
+<br/>
 
 <br/>
 
