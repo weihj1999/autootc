@@ -15,7 +15,7 @@ export OS_USER_DOMAIN_NAME=user_domain_name
 export OS_PASSWORD=******* 
 export TENANT_ID=********
 
-[comment]: <Only change these for a different region>
+\#Only change these for a different region
 export OS_TENANT_NAME=az1 
 export OS_PROJECT_NAME=az1 
 export OS_AUTH_URL=https://iam.az1.domainname.com:443/v3
