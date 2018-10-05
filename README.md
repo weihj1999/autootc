@@ -2,7 +2,7 @@
 
 **What OpenTelekomCloud can help you for automation**  <br/>
 OTC provide a great range services support to help customer automating your infrastructure. For example, terraform, Resource Template Service (RTS, based on Openstack HEAT)
-,ansible support. You will take benifit of them.
+,ansible support. You will take benefit of them.
 
 You may get more information about Open Telekom Cloud from offical website. https://cloud.telekom.de/de/infrastruktur/open-telekom-cloud
 
