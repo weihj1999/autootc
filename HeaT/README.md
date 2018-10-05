@@ -30,4 +30,14 @@ export OS_IMAGE_API_VERSION=2
 ```
 
 <h2>Structure</h2>
+RDS             - Create a Rational Database Instances
+</br>
+lbaasv2         - Create an enhanced loadbalancer
+</br>
+multiVolAttach  - Create volume and attach to a single elastic compute server
+</br>
+singleecs       - Create a single ECS instance
+</br>
+vpc             - Create a VPC and subnet
+</br>
 
