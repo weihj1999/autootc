@@ -18,6 +18,6 @@ HoT        - examples which works with OTC RTS services
 Ansilbe    - examples to build applicaiton on OTC
  
 
-**Contact**
+**Contact**<br/>
 Hongjin WEI, weihongjin@huawei.com
 
