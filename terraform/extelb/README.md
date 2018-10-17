@@ -3,7 +3,7 @@
 <h2>Overview</h2>
 
 This sample will create:<br>
-<ol start="0">
+<ol start="1">
 <li>1. </li>
 <li>2. </li>
 <li>3. </li>
