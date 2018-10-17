@@ -18,7 +18,7 @@ $ terraform init
 $ terraform plan
 $ terraform apply
 $ terraform show
-
+```
 <h2>Notes</h2>
 
 <h2></h2>
