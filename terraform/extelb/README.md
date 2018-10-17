@@ -20,6 +20,12 @@ $ terraform apply
 $ terraform show
 
 ```
+
+```sh
+$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-opentelekomcloud
+$ make build
+```
+
 <h2>Notes</h2>
 
 <h2></h2>
