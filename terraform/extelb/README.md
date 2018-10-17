@@ -13,7 +13,8 @@ This sample will :<br>
 <h2>How to run</h2>
 You may get the code to you local firstly, initialize terraform, plan the infrastrucure and deploy them. The below are for your reference:
 <br>
-```sh
+
+```Shell
 $ terraform init
 $ terraform plan
 $ terraform apply
@@ -21,10 +22,7 @@ $ terraform show
 
 ```
 
-```sh
-$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-opentelekomcloud
-$ make build
-```
+
 
 <h2>Notes</h2>
 
