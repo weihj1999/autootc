@@ -1,11 +1,15 @@
 # terraform
 
-What will you find here?
-I would like to share some guide, sample code to help you to understand OpenTelekom Cloud. Most of them will focus on compute, network, storage and other cloud service. I also focus on automation work with Terraform, RTS(based on Openstack HEAT),Ansible and etc to help you automate your work on this leading public cloud across Europe.
+<h2>Terrafrom Provider</h2>
+Terraform OpenTelekomCloud Provider: 	
+https://github.com/terraform-providers/terraform-provider-opentelekomcloud 
 
-You may get more information about Open Telekom Cloud from offical website. https://cloud.telekom.de/de/infrastruktur/open-telekom-cloud
+You can have a quick workthrough here, such as install your enviroment, create your first program, and etc.
 
-And you are also welcome to share your practice, so we can help more and more.
+Terraform OpenTelekomCloud Provider User Guide:
+https://www.terraform.io/docs/providers/opentelekomcloud/index.html
+
+
 
 <h2>Structure</h2>
 
