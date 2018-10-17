@@ -26,6 +26,16 @@ $ terraform show
 
 <h2>Notes</h2>
 
+The tomcat service is installed by ansible playbook, you can also find it from this sample. The ansible playbook is inoked by an local_exec provisioner by terrafrom
+```HCL
+resource "null_resource" "ansible_ansible" {
+   depends_on = ["opentelekomcloud_compute_instance_v2.az01-webtomcat"]
+   provisioner "local-exec" {
+     command = "sleep 120 && ansible-playbook -i /home/linux/extelb/tomcat/hosts /home/linux/extelb/tomcat/site.yml -vv"
+  }
+}
+```
+
 <h2></h2>
 
 <h2></h2>
