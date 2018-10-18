@@ -13,7 +13,7 @@ https://www.terraform.io/docs/providers/opentelekomcloud/index.html
 
 <h2>Structure</h2>
 
-beginner - examples for the beginer to understand terrafrom, and operation OTC with terraform.
+beginner - examples for the beginer to understand terrafrom, and operation OTC with terraform.<br>
 extelb - create two tomcat servers and a loadbalancer before them
 
 <h2>Contact:</h2>
