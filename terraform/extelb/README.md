@@ -12,7 +12,9 @@ This sample will :<br>
 
 <h2>Configuration</h2>
 The example create a new module for tomcat, you can also customize the config when create the cluster.
+
 ```HCL
+
 module "tomcat" {
   source = "./tomcat"
   tenant_name="eu-de_ansible"
@@ -27,7 +29,6 @@ module "tomcat" {
   vpc_id = "5146a3c4-0615-457e-8775-023ec771ef99"
 }
 ```
-
 
 <h2>How to run</h2>
 You may get the code to you local firstly, initialize terraform, plan the infrastrucure and deploy them. The below are for your reference:
