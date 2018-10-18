@@ -1,10 +1,10 @@
 
 resource "opentelekomcloud_blockstorage_volume_v2" "az01-webtomcat-sys-vol" {
   count    = "${var.count}"
-  name     = "${var.availability_zone}-webtomcat-sys-vol-${count.index}"
+  name     = "${element(var.azs, count.index)}-webtomcat-sys-vol-${count.index}"
   size     = 10
   image_id = "${var.image_id}"
-  availability_zone = "${var.availability_zone}"
+  availability_zone = "${element(var.azs, count.index)}"
   volume_type = "SATA"
   tags {
     ETYPE = "UAT"
@@ -14,10 +14,10 @@ resource "opentelekomcloud_blockstorage_volume_v2" "az01-webtomcat-sys-vol" {
 
 resource "opentelekomcloud_compute_instance_v2" "az01-webtomcat" {
    count           = "${var.count}"
-   name            = "${var.availability_zone}-webtomcat${count.index}"
+   name            = "${element(var.azs, count.index)}-webtomcat${count.index}"
    flavor_name     = "${var.flavor_name}"
    key_pair        = "nor"
-   availability_zone = "${var.availability_zone}"
+   availability_zone = "${element(var.azs, count.index)}"
    security_groups = ["default"]
    
    tags = ["ETYPE.UAT","OS.CentOS73"]
