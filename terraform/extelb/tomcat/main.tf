@@ -36,6 +36,10 @@ resource "opentelekomcloud_compute_instance_v2" "az01-webtomcat" {
    provisioner "local-exec" {
      command = "echo -e ${self.network.0.fixed_ip_v4} ansible_ssh_private_key_file=~/.ssh/id_rsa >> /home/linux/extelb/tomcat/hosts"
    }
+   provisioner "local-exec" {
+     when = "destroy"
+     command = "sed -i '/${self.network.0.fixed_ip_v4}/d' /home/linux/extelb/tomcat/hosts"
+   }
 }
 
 resource "opentelekomcloud_elb_loadbalancer" "tomcat_ext_elb" {
