@@ -16,5 +16,5 @@ HoT        - examples which works with OTC RTS services
 Ansilbe    - examples to build applicaiton on OTC
 <br/>
 **Contact**<br/>
-Hongjin WEI, weihongjin@huawei.com
+[Hongjin WEI](https://github.com/weihj1999), weihongjin@huawei.com
 
