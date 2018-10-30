@@ -14,8 +14,9 @@ https://www.terraform.io/docs/providers/opentelekomcloud/index.html
 <h2>Structure</h2>
 
 beginner - examples for the beginer to understand terrafrom, and operation OTC with terraform.<br>
-extelb - create two tomcat servers and a loadbalancer before them
+extelb - create two tomcat servers and a loadbalancer before them <br>
+vpcpeering - an example to create vpc peering inside same tenant, there will be ECS instance created which will be used to verify. 
 
 <h2>Contact:</h2>
-Hongjin WEI, weihongjin@huawei.com
+[Hongjin WEI](https://github.com/weihj1999), weihongjin@huawei.com
 
