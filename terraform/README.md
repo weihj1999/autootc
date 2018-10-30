@@ -17,6 +17,6 @@ beginner - examples for the beginer to understand terrafrom, and operation OTC w
 extelb - create two tomcat servers and a loadbalancer before them <br>
 vpcpeering - an example to create vpc peering inside same tenant, there will be ECS instance created which will be used to verify. 
 
-**Contact:**<br/>
+*Contact:*<br/>
 [Hongjin WEI](https://github.com/weihj1999), weihongjin@huawei.com
 
