@@ -1,6 +1,6 @@
 # terraform
 
-<h2>Terrafrom Provider</h2>
+**Terrafrom Provider**
 Terraform OpenTelekomCloud Provider: 	
 https://github.com/terraform-providers/terraform-provider-opentelekomcloud 
 
@@ -11,7 +11,7 @@ https://www.terraform.io/docs/providers/opentelekomcloud/index.html
 
 
 
-<h2>Structure</h2>
+**Structure**
 
 beginner - examples for the beginer to understand terrafrom, and operation OTC with terraform.<br>
 extelb - create two tomcat servers and a loadbalancer before them <br>
