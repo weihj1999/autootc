@@ -29,7 +29,7 @@ $terraform graph
 
 7. export your graph
 
-$terraform| DOT -Tpdf > myGRAPH.PDF
+$terraform graph | DOT -Tpdf > myGRAPH.PDF
 
 8. destroy your infra
 
