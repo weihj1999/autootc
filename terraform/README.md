@@ -1,5 +1,5 @@
 # terraform
-
+<br/>
 **Terrafrom Provider**
 Terraform OpenTelekomCloud Provider: 	
 https://github.com/terraform-providers/terraform-provider-opentelekomcloud 
@@ -12,11 +12,11 @@ https://www.terraform.io/docs/providers/opentelekomcloud/index.html
 
 
 **Structure**
-
+<br/>
 beginner - examples for the beginer to understand terrafrom, and operation OTC with terraform.<br>
 extelb - create two tomcat servers and a loadbalancer before them <br>
 vpcpeering - an example to create vpc peering inside same tenant, there will be ECS instance created which will be used to verify. 
 
-*Contact:*<br/>
+**Contact:**<br/>
 [Hongjin WEI](https://github.com/weihj1999), weihongjin@huawei.com
 
