@@ -28,7 +28,7 @@ Add user data with OS::Heat::CloudConfig <br>
 
 ```
 
-There are also other ways to do this with cloud-init. please refer:<br>
+You may refer to the below online document for more detail<br>
 https://docs.otc.t-systems.com/en-us/usermanual/ecs/en-us_topic_0032380449.html<br>
 https://cloudinit.readthedocs.io/en/latest/topics/format.html<br>
 https://cloudinit.readthedocs.io/en/latest/topics/examples.html<br>
