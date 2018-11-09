@@ -39,3 +39,5 @@ This feaure is supported by RTS(Resource Template Service) on OTC, and it is bas
 Since HEAT  was defaulting to HEAT_CFNTOOLS. it is considered legacy and RAW or SOFTWARE_CONFIG will generally be more appropriate.
 Dont' forget to specify the data format to RAW or SOFTWARE_CONFIG when using HEAT
 
+## Contact
+[Hongjin WEI](https://github.com/weihj1999), weihongjin@huawei.com
