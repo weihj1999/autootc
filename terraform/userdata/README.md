@@ -17,6 +17,7 @@ provider "template" {
 
 ```
 2. Loading data from local cloudinit config init.tpl
+
 data.tf<br>
 ```hcl
 data "template_file" "init" {
@@ -43,6 +44,7 @@ data "template_cloudinit_config" "config" {
 ```
 
 3. Render cloudinit config for instance
+
 main.tf<br>
 ```hcl
 resource "opentelekomcloud_compute_instance_v2" "ecs" {
