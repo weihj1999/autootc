@@ -21,6 +21,7 @@ extelb - create two tomcat servers and a loadbalancer before them <br>
 vpcpeering - an example to create vpc peering inside same tenant, there will be ECS instance created which will be used to verify.<br>
 vaulttf - show how to use vault to get OTC credential from vault <br>
 Vault - show how use terraform to generate a secret in Vault <br> 
+Namelist - an example to show how to name ECS instance 
 
 **Contact:**<br/>
 [Hongjin WEI](https://github.com/weihj1999), weihongjin@huawei.com
