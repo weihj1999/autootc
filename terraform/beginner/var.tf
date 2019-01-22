@@ -1,12 +1,12 @@
 variable "user_name" {
-  default = "weihongjin"
+  default = "<changeme>"
 }
 variable "password" {
-  default = "Tsi8675*@"
+  default = "<changeme>"
 }
 
 variable "domain_name" {
-  default = "OTC00000000001000010501"
+  default = "<changeme>"
 }
 variable "region_name" {
   default = "eu-de"
