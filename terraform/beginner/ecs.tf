@@ -6,6 +6,10 @@ resource "opentelekomcloud_compute_instance_v2" "myserver" {
   key_pair        = "KeyPair-bf25"
   security_groups = ["default"]
   
+  tag = {
+    foo = "bar"
+    key = "value"
+  }
 
   network {
     uuid    = "${opentelekomcloud_networking_network_v2.vpc_network_1.id}"
