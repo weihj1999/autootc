@@ -20,3 +20,13 @@ Vagrant.configure("2") do |config|
       host2.vm.network "public_network", use_dhcp_assigned_default_route: true
     end
 end
+
+
+
+Known Issue:
+when you met ssh issue on Win10, with an clean fresh VagrantFile. Please remote the default openssh client.
+Here is the detail:
+Win10 has include a ssh client. You just need to remove it from "settings => apps => apps and features => Optional features"
+or
+Add vagrant ssh to PATH
+https://github.com/hashicorp/vagrant/issues/9831
