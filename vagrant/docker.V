@@ -78,3 +78,7 @@ Vagrant.configure("2") do |config|
   end
   
 end
+
+
+#Reference
+#https://medium.com/@Joachim8675309/vagrant-provisioning-with-docker-3621df12092a
