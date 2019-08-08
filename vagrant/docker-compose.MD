@@ -96,16 +96,14 @@ Compose has traditionally been focused on development and testing workflows, but
 
 For details on using production-oriented features, see compose in production in this documentation.
 
-Release notes
+## Release notes
 To see a detailed list of changes for past and current releases of Docker Compose, refer to the CHANGELOG.
 
-Getting help
+## Getting help
 Docker Compose is under active development. If you need help, would like to contribute, or simply want to talk about the project with like-minded individuals, we have a number of open channels for communication.
 
-To report bugs or file feature requests: use the issue tracker on Github.
+- To report bugs or file feature requests: use the issue tracker on Github.
+- To talk about the project with people in real time: join the ```#docker-compose``` channel on freenode IRC.
+- To contribute code or documentation changes: submit a pull request on Github.
 
-To talk about the project with people in real time: join the #docker-compose channel on freenode IRC.
-
-To contribute code or documentation changes: submit a pull request on Github.
-
-For more information and resources, visit the Getting Help project page.
+For more information and resources, visit the [Getting Help project page](https://docs.docker.com/opensource/get-help/).
