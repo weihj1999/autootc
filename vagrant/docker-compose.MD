@@ -1,18 +1,18 @@
 Reference:
 https://docs.docker.com/compose/
 
-Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. To learn more about all the features of Compose, see the list of features.
+Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. To learn more about all the features of Compose, see [the list of features](https://docs.docker.com/compose/overview/#features).
 
-Compose works in all environments: production, staging, development, testing, as well as CI workflows. You can learn more about each case in Common Use Cases.
+Compose works in all environments: production, staging, development, testing, as well as CI workflows. You can learn more about each case in [Common Use Cases](https://docs.docker.com/compose/#common-use-cases).
 
 1. Using Compose is basically a three-step process:
-2. Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
-3. Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
+2. Define your app’s environment with a ```Dockerfile``` so it can be reproduced anywhere.
+3. Define the services that make up your app in ```docker-compose.yml``` so they can be run together in an isolated environment.
 
-Run docker-compose up and Compose starts and runs your entire app.
+Run ```docker-compose``` up and Compose starts and runs your entire app.
 
-A docker-compose.yml looks like this:
-```YAML
+A ```docker-compose.yml``` looks like this:
+```YAML```
 version: '3'
 services:
   web:
@@ -29,24 +29,24 @@ services:
 volumes:
   logvolume01: {}
 ```
-For more information about the Compose file, see the Compose file reference.
+For more information about the Compose file, see the [Compose file reference](https://docs.docker.com/compose/compose-file/).
 
 Compose has commands for managing the whole lifecycle of your application:
 
-Start, stop, and rebuild services
-View the status of running services
-Stream the log output of running services
-Run a one-off command on a service
-Compose documentation
-Installing Compose
-Getting Started
-Get started with Django
-Get started with Rails
-Get started with WordPress
-Frequently asked questions
-Command line reference
-Compose file reference
-Features
+- Start, stop, and rebuild services
+- View the status of running services
+- Stream the log output of running services
+- Run a one-off command on a service
+## Compose documentation
+- Installing Compose
+- Getting Started
+- Get started with Django
+- Get started with Rails
+- Get started with WordPress
+- Frequently asked questions
+- Command line reference
+- Compose file reference
+## Features
 The features of Compose that make it effective are:
 
 Multiple isolated environments on a single host
