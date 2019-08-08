@@ -39,3 +39,23 @@ And add the following command on ```/etc/rc.local```(before exit 0):
 ```BASH
 brctl addif docker1 eth1
 ```
+使用network-scripts配置网桥网卡
+ifcfg-docker1
+```
+DEVICE=docker1
+TYPE=Bridge
+BOOTPROTO=static
+DNS1=8.8.8.8
+IPADDR=192.168.56.10
+NETMASK=255.255.255.0
+ONBOOT=yes
+```
+ifcfg-eth1
+```
+DEVICE=eth1
+ONBOOT=yes
+TYPE=Ethernet
+IPV6INIT=no
+USERCTL=no
+BRIDGE=docker1
+```
