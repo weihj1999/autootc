@@ -5,8 +5,8 @@ $ sudo ip addr del 192.168.56.10/24 dev eth1
 # Create "shared_nw" with a bridge name "docker1"
 $ sudo docker network create \
     --driver bridge \
-    --subnet=192.168.33.0/24 \
-    --gateway=192.168.33.10 \
+    --subnet=192.168.56.0/24 \
+    --gateway=192.168.56.10 \
     --opt "com.docker.network.bridge.name"="docker1" \
     shared_nw
 # Add docker1 to eth1
