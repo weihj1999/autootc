@@ -5,16 +5,14 @@ Compose is a tool for defining and running multi-container Docker applications. 
 
 Compose works in all environments: production, staging, development, testing, as well as CI workflows. You can learn more about each case in Common Use Cases.
 
-Using Compose is basically a three-step process:
-
-Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
-
-Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
+1. Using Compose is basically a three-step process:
+2. Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
+3. Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
 
 Run docker-compose up and Compose starts and runs your entire app.
 
 A docker-compose.yml looks like this:
-
+```YAML
 version: '3'
 services:
   web:
@@ -30,6 +28,7 @@ services:
     image: redis
 volumes:
   logvolume01: {}
+```
 For more information about the Compose file, see the Compose file reference.
 
 Compose has commands for managing the whole lifecycle of your application:
