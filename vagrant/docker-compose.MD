@@ -72,7 +72,7 @@ Compose caches the configuration used to create a container. When you restart a 
 ### Variables and moving a composition between environments
 Compose supports variables in the Compose file. You can use these variables to customize your composition for different environments, or different users. See [Variable substitution](https://docs.docker.com/compose/compose-file/#variable-substitution) for more details.
 
-You can extend a Compose file using the extends field or by creating multiple Compose files. See extends for more details.
+You can extend a Compose file using the ```extends``` field or by creating multiple Compose files. See [extends](https://docs.docker.com/compose/extends/) for more details.
 
 ## Common use cases
 Compose can be used in many different ways. Some common use cases are outlined below.
@@ -80,7 +80,7 @@ Compose can be used in many different ways. Some common use cases are outlined b
 ### Development environments
 When you’re developing software, the ability to run an application in an isolated environment and interact with it is crucial. The Compose command line tool can be used to create the environment and interact with it.
 
-The Compose file provides a way to document and configure all of the application’s service dependencies (databases, queues, caches, web service APIs, etc). Using the Compose command line tool you can create and start one or more containers for each dependency with a single command (docker-compose up).
+The [Compose file](https://docs.docker.com/compose/compose-file/) provides a way to document and configure all of the application’s service dependencies (databases, queues, caches, web service APIs, etc). Using the Compose command line tool you can create and start one or more containers for each dependency with a single command (```docker-compose up```).
 
 Together, these features provide a convenient way for developers to get started on a project. Compose can reduce a multi-page “developer getting started guide” to a single machine readable Compose file and a few commands.
 
