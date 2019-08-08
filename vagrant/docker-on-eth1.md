@@ -59,3 +59,17 @@ IPV6INIT=no
 USERCTL=no
 BRIDGE=docker1
 ```
+
+docker run --name mysql57 --net shared_nw --ip 192.168.56.11 -e MYSQL_ROOT_PASSWORD=passw0rd -d mysql:5.7
+
+docker run --name myjira --net share_nw --ip 192.168.56.12 --detach --publish 8080:8080 cptactionhank/atlassian-jira:latest
+
+$ docker exec -it mysql57 bash
+登录mysql的容器，执行mysql客户端去创建DB，授权等操作
+进入容器后：
+mysql -P 3306 --protocol=tcp -u root -p
+
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER,INDEX on jiradb.* TO 'root'@'192.168.56.12' IDENTIFIED BY 'passw0rd';
+
+配置JiRA需要邮箱，
+需要账号激活license，同时关联了服务器号和ip地址
