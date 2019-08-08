@@ -37,7 +37,7 @@ Compose has commands for managing the whole lifecycle of your application:
 - View the status of running services
 - Stream the log output of running services
 - Run a one-off command on a service
-## Compose documentation
+Compose documentation
 - Installing Compose
 - Getting Started
 - Get started with Django
@@ -46,7 +46,7 @@ Compose has commands for managing the whole lifecycle of your application:
 - Frequently asked questions
 - Command line reference
 - Compose file reference
-## Features
+Features
 The features of Compose that make it effective are:
 
 Multiple isolated environments on a single host
