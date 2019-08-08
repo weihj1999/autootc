@@ -12,7 +12,7 @@ Compose works in all environments: production, staging, development, testing, as
 Run ```docker-compose``` up and Compose starts and runs your entire app.
 
 A ```docker-compose.yml``` looks like this:
-```YAML```
+```YAML
 version: '3'
 services:
   web:
